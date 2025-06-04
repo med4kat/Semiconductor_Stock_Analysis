@@ -3,6 +3,8 @@
 ## Overview
 This project analyses stock price trends of major semiconductor companies from 2015 to 2023. It includes data cleaning, visualisations, and key financial metrics (e.g., returns, volatility, and correlations) to explore market insights.
 
+[Visit Jupyter Book](https://med4kat.github.io/Semiconductor_Stock_Analysis/intro.html)
+
 ## Dataset
 Historical stock price data for:
 - NVIDIA (NVDA)
