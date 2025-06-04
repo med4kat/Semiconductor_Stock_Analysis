@@ -420,18 +420,6 @@ document.write(`
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
-<span class="ne">ModuleNotFoundError</span><span class="g g-Whitespace">                       </span>Traceback (most recent call last)
-<span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">line</span> <span class="mi">3</span>
-<span class="g g-Whitespace">      </span><span class="mi">1</span> <span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
-<span class="g g-Whitespace">      </span><span class="mi">2</span> <span class="kn">import</span><span class="w"> </span><span class="nn">matplotlib.pyplot</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">plt</span>
-<span class="ne">----&gt; </span><span class="mi">3</span> <span class="kn">import</span><span class="w"> </span><span class="nn">seaborn</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">sns</span>
-
-<span class="ne">ModuleNotFoundError</span>: No module named &#39;seaborn&#39;
-</pre></div>
-</div>
-</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -445,16 +433,16 @@ document.write(`
 </div>
 <div class="cell_output docutils container">
 <div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>         Date      NVDA       INTC   AMD       QCOM        TSM
-0  2015-01-02  0.483177  27.896463  2.67  55.841820  16.909441
-1  2015-01-05  0.475016  27.581898  2.66  55.578712  16.499603
-2  2015-01-06  0.460614  27.067846  2.63  54.789341  16.211205
-3  2015-01-07  0.459414  27.635607  2.58  55.428360  16.446474
-4  2015-01-08  0.476696  28.149651  2.61  56.014748  16.552731
-5  2015-01-09  0.478616  28.203344  2.63  55.947067  16.089775
-6  2015-01-12  0.472616  28.080589  2.63  55.308064  15.778603
-7  2015-01-13  0.471895  28.003868  2.66  54.857006  15.975929
-8  2015-01-14  0.473816  27.888784  2.63  54.293179  15.983519
-9  2015-01-15  0.470455  27.766020  2.52  53.661690  17.372400
+0  2015-01-02  0.483099  27.896454  2.67  55.253315  16.790493
+1  2015-01-05  0.474939  27.581898  2.66  54.992950  16.383541
+2  2015-01-06  0.460540  27.067856  2.63  54.211922  16.097166
+3  2015-01-07  0.459340  27.635597  2.58  54.844193  16.330791
+4  2015-01-08  0.476619  28.149645  2.61  55.424389  16.436291
+5  2015-01-09  0.478539  28.203352  2.63  55.357426  15.976588
+6  2015-01-12  0.472540  28.080593  2.63  54.725174  15.667608
+7  2015-01-13  0.471820  28.003881  2.66  54.278870  15.863548
+8  2015-01-14  0.473739  27.888784  2.63  53.720985  15.871084
+9  2015-01-15  0.470380  27.766024  2.52  53.096130  17.250196
 </pre></div>
 </div>
 </div>
@@ -479,7 +467,7 @@ Data columns (total 6 columns):
  4   QCOM    2264 non-null   float64
  5   TSM     2264 non-null   float64
 dtypes: float64(5), object(1)
-memory usage: 106.2+ KB
+memory usage: 106.3+ KB
 None
 </pre></div>
 </div>
@@ -513,7 +501,7 @@ Data columns (total 6 columns):
  4   QCOM    2264 non-null   float64       
  5   TSM     2264 non-null   float64       
 dtypes: datetime64[ns](1), float64(5)
-memory usage: 106.2 KB
+memory usage: 106.3 KB
 None
 </pre></div>
 </div>
@@ -532,11 +520,11 @@ None
 <div class="cell_output docutils container">
 <div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>                NVDA       INTC   AMD       QCOM        TSM
 Date                                                       
-2015-01-02  0.483177  27.896463  2.67  55.841820  16.909441
-2015-01-05  0.475016  27.581898  2.66  55.578712  16.499603
-2015-01-06  0.460614  27.067846  2.63  54.789341  16.211205
-2015-01-07  0.459414  27.635607  2.58  55.428360  16.446474
-2015-01-08  0.476696  28.149651  2.61  56.014748  16.552731
+2015-01-02  0.483099  27.896454  2.67  55.253315  16.790493
+2015-01-05  0.474939  27.581898  2.66  54.992950  16.383541
+2015-01-06  0.460540  27.067856  2.63  54.211922  16.097166
+2015-01-07  0.459340  27.635597  2.58  54.844193  16.330791
+2015-01-08  0.476619  28.149645  2.61  55.424389  16.436291
 </pre></div>
 </div>
 </div>
@@ -557,7 +545,7 @@ Date
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/2218c3a10cf618f40db28949f3f9cc93e5cb9ad7a36e4da722826a986b30a06c.png" src="_images/2218c3a10cf618f40db28949f3f9cc93e5cb9ad7a36e4da722826a986b30a06c.png" />
+<img alt="_images/2798441563fc9cefb10640ff97066db76d720968edc48fb5bc5436464a68d17f.png" src="_images/2798441563fc9cefb10640ff97066db76d720968edc48fb5bc5436464a68d17f.png" />
 </div>
 </div>
 <section id="stock-price-trends-observations">
@@ -586,7 +574,7 @@ Date
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/5480cc2ad18177e98d831bfa30695f68cf69a42815c17a7de650f77ff3b2f406.png" src="_images/5480cc2ad18177e98d831bfa30695f68cf69a42815c17a7de650f77ff3b2f406.png" />
+<img alt="_images/fb0e8751b8e53275c26c8d33946d152626cfdc0f529c225a4d3e8b977848a730.png" src="_images/fb0e8751b8e53275c26c8d33946d152626cfdc0f529c225a4d3e8b977848a730.png" />
 </div>
 </div>
 <div class="cell docutils container">
@@ -604,7 +592,7 @@ Date
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/9d50184f86690e916be516039776d951bb734e11f309a23e67358f92c5456cd8.png" src="_images/9d50184f86690e916be516039776d951bb734e11f309a23e67358f92c5456cd8.png" />
+<img alt="_images/261afd87d962516e252abd374512ea21d8e7350feb30a088b1f8a71ea55ed238.png" src="_images/261afd87d962516e252abd374512ea21d8e7350feb30a088b1f8a71ea55ed238.png" />
 </div>
 </div>
 <div class="cell docutils container">
@@ -622,7 +610,7 @@ Date
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/993aebeb4c7774e343d141a95816ea19609d6e13635b129562f3725467533f1f.png" src="_images/993aebeb4c7774e343d141a95816ea19609d6e13635b129562f3725467533f1f.png" />
+<img alt="_images/8ec5e5c39ff217a48a2baac6585a76e8848f397f767c2da0234571cd2d4758b4.png" src="_images/8ec5e5c39ff217a48a2baac6585a76e8848f397f767c2da0234571cd2d4758b4.png" />
 </div>
 </div>
 </section>
@@ -647,7 +635,7 @@ Date
 <div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;function matplotlib.pyplot.show(close=None, block=None)&gt;
 </pre></div>
 </div>
-<img alt="_images/f2bdf7c9c1dd65a5fe818f5fe09b5d2fc592c8052792165e3d551804b01c914c.png" src="_images/f2bdf7c9c1dd65a5fe818f5fe09b5d2fc592c8052792165e3d551804b01c914c.png" />
+<img alt="_images/999aa3cdb8164ada11592de4cc469cee006d804dcd867741beb9502d9c95d4d6.png" src="_images/999aa3cdb8164ada11592de4cc469cee006d804dcd867741beb9502d9c95d4d6.png" />
 </div>
 </div>
 </section>
@@ -673,7 +661,7 @@ Date
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/08035a2bd299ad6d5ee2d58fd8e7ed63095dca40bad3801481dfe43976aec4cd.png" src="_images/08035a2bd299ad6d5ee2d58fd8e7ed63095dca40bad3801481dfe43976aec4cd.png" />
+<img alt="_images/5f676030fbb7d7f27e3582a81de029f43734851f856be11a903e6df1eb76ad4d.png" src="_images/5f676030fbb7d7f27e3582a81de029f43734851f856be11a903e6df1eb76ad4d.png" />
 </div>
 </div>
 </section>
@@ -702,7 +690,7 @@ Date
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/fdb29ffb97cd1f08f3a95b973075eb30b096976b9c426a35ad8089807650e72a.png" src="_images/fdb29ffb97cd1f08f3a95b973075eb30b096976b9c426a35ad8089807650e72a.png" />
+<img alt="_images/9ed58695c849f5db98e76578ab4d9e8a7903440d82e59902f4fa18a55dcd28f1.png" src="_images/9ed58695c849f5db98e76578ab4d9e8a7903440d82e59902f4fa18a55dcd28f1.png" />
 </div>
 </div>
 </section>
@@ -734,7 +722,7 @@ Date
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/975ee48ffc27a8bb7148ab7b9352a36aa0097045dbdab2d346a078977dcf6e46.png" src="_images/975ee48ffc27a8bb7148ab7b9352a36aa0097045dbdab2d346a078977dcf6e46.png" />
+<img alt="_images/fd9b6607514baccc0853b5b2299fc56ca3d52416f2000d84c4cb08563d4a0a9c.png" src="_images/fd9b6607514baccc0853b5b2299fc56ca3d52416f2000d84c4cb08563d4a0a9c.png" />
 </div>
 </div>
 </section>
@@ -795,7 +783,7 @@ float64
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/93d07fc21b108af0d26398b440cb3cf5489d320d3e8567d41c9d54d1cc474355.png" src="_images/93d07fc21b108af0d26398b440cb3cf5489d320d3e8567d41c9d54d1cc474355.png" />
+<img alt="_images/5c3329a33f676373338c362157324ca4aa1a2044bab1ebf746d8a29e795dc728.png" src="_images/5c3329a33f676373338c362157324ca4aa1a2044bab1ebf746d8a29e795dc728.png" />
 </div>
 </div>
 </section>
